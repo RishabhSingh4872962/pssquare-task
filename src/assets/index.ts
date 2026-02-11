@@ -17,25 +17,39 @@ import "../assets/dashboard/topcollection4.png";
 
 export const Images = {
   dashboard: {
-    autumncollection: "../assets/dashboard/autumncollection.jpg",
-    hangout: "../assets/dashboard/hangout.png",
+    autumncollection: require("../assets/dashboard/autumncollection.jpg"),
+    hangout: require("../assets/dashboard/hangout.png"),
   },
   signup: {
-    applogo: "../assets/signup/applogo.png",
+    applogo: require("../assets/signup/applogo.png"),
   },
   product: {
-    product1: "../assets/dashboard/product1.jpg",
-    product2: "../assets/dashboard/product2.png",
-    product3: "../assets/dashboard/product3.png",
+    product1: require("../assets/dashboard/product1.jpg"),
+    product2: require("../assets/dashboard/product2.png"),
+    product3: require("../assets/dashboard/product3.png"),
   },
   recommended: {
-    recommended1: "../assets/dashboard/recommended1.png",
-    recommended2: "../assets/dashboard/recommended2.png",
+    recommended1: require("../assets/dashboard/recommended1.png"),
+    recommended2: require("../assets/dashboard/recommended2.png"),
   },
   topcollection: {
-    topcollection1: "../assets/dashboard/topcollection1.png",
-    topcollection2: "../assets/dashboard/topcollection2.png",
-    topcollection3: "../assets/dashboard/topcollection3.png",
-    topcollection4: "../assets/dashboard/topcollection4.png",
+    topcollection1: require("../assets/dashboard/topcollection1.png"),
+    topcollection2: require("../assets/dashboard/topcollection2.png"),
+    topcollection3: require("../assets/dashboard/topcollection3.png"),
+    topcollection4: require("../assets/dashboard/topcollection4.png"),
+  },
+  cart: {
+    selectProduct: require("../assets/dashboard/cart.png"),
+    cartItem: require("../assets/dashboard/cart.png"),
+  },
+
+  reviews: {
+    jene: require("../assets/product/jenefer.png"),
+    kelly: require("../assets/product/kelly.png"),
+  },
+  similarProduct: {
+    smProduct1: require("../assets/product/similarproduct1.png"),
+    smProduct2: require("../assets/product/similarproduct2.png"),
+    smProduct3: require("../assets/product/similarproduct3.png"),
   },
 };
